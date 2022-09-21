@@ -29,7 +29,7 @@ fn read_bmp<T: AsRef<Path>>(input_bmp_name: T) -> Result<Image, image::ImageErro
         width: width as usize,
         height: height as usize,
         channels: channels as usize,
-        data: Bytes::from(im.to_bytes()),
+        data: Bytes::from(im.into_bytes()),
     })
 }
 

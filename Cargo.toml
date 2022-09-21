@@ -12,9 +12,9 @@ cpp_build = "0.5"
 cpp = "0.5"
 libc = "0.2"
 thiserror = "1.0.17"
-tflite = { git = "https://github.com/ionosnetworks/tflite-rs", rev = "abcaeab" }
+tflite = { git = "https://github.com/Finfalter/tflite-rs", rev = "e6eecd4" }
 
 [dev-dependencies]
-bytes = "0.5.4"
+bytes = "1.2.1"
 byteorder = "1.3.4"
-image = "0.23.4"
+image = "0.24.3"
